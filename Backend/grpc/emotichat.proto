@@ -2,7 +2,6 @@ syntax = "proto3";
 
 package emotichat;
 
-
 // Core service for EmotiChat emotional wellness system
 service emotichat {
   rpc AnalyzeEmotion(VoiceTextRequest) returns (EmotionAnalysisResponse);
